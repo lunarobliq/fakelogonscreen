@@ -64,7 +64,7 @@ namespace FakeLogonScreen
             }
 
             // Output result of logon screen
-            try
+            /*try
             {
                 if (string.IsNullOrEmpty(password))
                     password = "[blank password]";
@@ -87,7 +87,7 @@ namespace FakeLogonScreen
             catch (Exception e)
             {
                 Console.WriteLine(e);
-            }
+            }*/
 
             // Ask again if password is incorrect
             if (!success)
